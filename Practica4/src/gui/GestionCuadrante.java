@@ -43,6 +43,7 @@ public class GestionCuadrante extends JFrame implements ActionListener{
 	private JTextField txtSemana;
 	private JButton btnImprimirCuadrante;
 	private JTable table;
+	
 	private JTable tablaCuadrante;
 	private DefaultTableModel model;
 	private JScrollPane scrollPane;
