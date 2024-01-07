@@ -12,6 +12,7 @@ public abstract class Contrato {
 	private ArrayList<Turno> turnos;
 	private int id;
 	private int semana;
+	public int num;
 	
 	//Definici�n de constructores
 	public Contrato(String tipoContrato, int diasTrabajo, int diasDescanso, String fechaInicio, String fechaFin, int id, int semana) {
