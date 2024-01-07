@@ -97,7 +97,7 @@ public abstract class Contrato {
 			for(i=0; i<4; i++)
 				this.turnos.add(i, Turno.LIBRE);
 			for(i=4; i<7; i++)
-				this.turnos.add(i, Turno.NOCHE);
+				this.turnos.add(i, Turno.);
 		}else if(this.tipoContrato == "Contrato de 32h") {
 			if(this.id == 1) {
 				for(i=0; i<4; i++)
